@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+  <style>
+    
+  </style>
+</head>
+<body>
+    <div class="main font-[gilroy] w-full h-screen bg-[#DEDEDE]">
+        <div class="nav w-full h-[20vh]  flex justify-between py-8 px-10">
+            <h1 class="capitalize font-bold text-lg"><i class="ri-dashboard-3-line"></i>arcar</h1>
+
+            <div class="section font-semibold capitalize flex gap-10 text-sm">
+                <a href="">home</a>
+                <a href="">electric car</a>
+                <a href="">sports cars</a>
+                <a href="">suv</a>
+            </div>
+
+            <div class="account flex gap-3">
+                <div class="img h-[4vh] w-[4vh] rounded-full bg-red-200"></div>
+                <h1 class="uppercase font-semibold text-sm mt-1">my account</h1>
+            </div>
+        </div>
+        <div class="social fixed z-50 text-[#7D7D7D] h-[40vw] text-2xl font-semibold items-center gap-5 flex flex-col  py-5 w-[3vw]  top-[60%] left-[5%]">
+            <i class="ri-facebook-line"></i>
+            <i class="ri-twitter-fill"></i>
+            <i class="ri-flutter-line"></i>
+            <i class="ri-google-fill"></i>
+            <i class="ri-instagram-line"></i>
+          </div>
+        <swiper-container
+        class="mySwiper  w-full h-[40vh] lg:h-[80vh] "
+        pagination="true"
+        keyboard="true"
+        mousewheel="true"
+        css-mode="true"
+        loop="true"
+      >
+     
+    
+        <swiper-slide class=" w-full h-full bg-rd-200">
+         <div class="text bg-blue-00 w-[90vw]  mx-auto text-[#7D7D7D] text-center leading-none uppercase">
+            <h1 class="font-bold text-[5vw] tracking-wider">lexus</h1>
+            <h1 class="font-bold text-[12vw] tracking-wider">lc series</h1>
+         </div>
+         <img class="w-[70vw] mx-auto -mt-20" src="./chervorlet.png" alt="">
+         <div class="buttons">
+            <button class="overflow-hidden relative left-[40%] w-[10vw] p-2 h-12 bg-[#ebc900] text-white border-none rounded-md text-xl font-medium cursor-pointer relative z-10 group"
+          >
+            Rent Now
+            <span
+              class="absolute w-[20vw] h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
+            ></span>
+            <span
+              class="absolute w-[20vw] h-32 -top-8 -left-2 bg-black rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"
+            ></span>
+            <span
+              class="absolute w-[20vw] h-32 -top-8 -left-2 bg-black rotate-12 transform scale-x-0 group-hover:scale-x-50 transition-transform group-hover:duration-1000 duration-500 origin-left"
+            ></span>
+            <span
+              class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10"
+              >lets do it</span
+            >
+          </button>
+
+          <button class="cursor-pointer rounded-md relative left-[45%] group overflow-hidden font-medium border-2 px-12  py-2 border-[#950303]">
+            <span class=" text-white text-xl relative z-10 group-hover:text-[#950303] duration-500">Details</span>
+            <span class="absolute top-0 left-0 w-full bg-[#950303] duration-500 group-hover:-translate-x-full h-full"></span>
+            <span class="absolute top-0 left-0 w-full bg-[#950303] duration-500 group-hover:translate-x-full h-full"></span>
+            
+              <span class="absolute top-0 left-0 w-full bg-[#950303] duration-500 delay-300 group-hover:-translate-y-full h-full"></span>
+            <span class="absolute delay-300 top-0 left-0 w-full bg-[#950303] duration-500 group-hover:translate-y-full h-full"></span>
+          </button>
+         </div>
+        </swiper-slide>
+
+
+        <swiper-slide class=" w-full h-full bg-rd-200">
+            <div class="text bg-blue-00 w-[90vw]  mx-auto text-[#7D7D7D] text-center leading-none uppercase">
+               <h1 class="font-bold text-[5vw] tracking-wider">audi</h1>
+               <h1 class="font-bold text-[12vw] tracking-wider">a3</h1>
+            </div>
+            <img class="w-[70vw] mx-auto -mt-28" src="./audi.png" alt="">
+            <div class="buttons">
+               <button class="overflow-hidden relative left-[40%] w-[10vw] p-2 h-12 bg-[#bd2228] text-white border-none rounded-md text-xl font-medium cursor-pointer relative z-10 group"
+             >
+               Rent Now
+               <span
+                 class="absolute w-[20vw] h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
+               ></span>
+               <span
+                 class="absolute w-[20vw] h-32 -top-8 -left-2 bg-black rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"
+               ></span>
+               <span
+                 class="absolute w-[20vw] h-32 -top-8 -left-2 bg-black rotate-12 transform scale-x-0 group-hover:scale-x-50 transition-transform group-hover:duration-1000 duration-500 origin-left"
+               ></span>
+               <span
+                 class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10"
+                 >lets do it</span
+               >
+             </button>
+   
+             <button class="cursor-pointer rounded-md relative left-[45%] group overflow-hidden font-medium border-2 px-12  py-2 border-[#bcb9c3]">
+               <span class=" text-white text-xl relative z-10 group-hover:text-[#bcb9c3] duration-500">Details</span>
+               <span class="absolute top-0 left-0 w-full bg-[#bcb9c3] duration-500 group-hover:-translate-x-full h-full"></span>
+               <span class="absolute top-0 left-0 w-full bg-[#bcb9c3] duration-500 group-hover:translate-x-full h-full"></span>
+               
+                 <span class="absolute top-0 left-0 w-full bg-[#bcb9c3] duration-500 delay-300 group-hover:-translate-y-full h-full"></span>
+               <span class="absolute delay-300 top-0 left-0 w-full bg-[#bcb9c3] duration-500 group-hover:translate-y-full h-full"></span>
+             </button>
+            </div>
+           </swiper-slide>
+
+           <swiper-slide class=" w-full h-full bg-rd-200">
+            <div class="text bg-blue-00 w-[90vw]  mx-auto text-[#7D7D7D] text-center leading-none uppercase">
+               <h1 class="font-bold text-[5vw] tracking-wider">rolls royce</h1>
+               <h1 class="font-bold text-[12vw] tracking-wider"> Cullinan SUV</h1>
+            </div>
+            <img class="w-[80vw] mx-auto -mt-28" src="./rol.png" alt="">
+            <div class="buttons">
+               <button class="overflow-hidden relative left-[40%] w-[10vw] p-2 h-12 bg-[#16509b] text-white border-none rounded-md text-xl font-medium cursor-pointer relative z-10 group"
+             >
+               Rent Now
+               <span
+                 class="absolute w-[20vw] h-32 -top-8 -left-2 bg-white rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-left"
+               ></span>
+               <span
+                 class="absolute w-[20vw] h-32 -top-8 -left-2 bg-black rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-left"
+               ></span>
+               <span
+                 class="absolute w-[20vw] h-32 -top-8 -left-2 bg-black rotate-12 transform scale-x-0 group-hover:scale-x-50 transition-transform group-hover:duration-1000 duration-500 origin-left"
+               ></span>
+               <span
+                 class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10"
+                 >lets do it</span
+               >
+             </button>
+   
+             <button class="cursor-pointer rounded-md relative left-[45%] group overflow-hidden font-medium border-2 px-12  py-2 border-[#e68554]">
+               <span class=" text-white text-xl relative z-10 group-hover:text-[#e68554] duration-500">Details</span>
+               <span class="absolute top-0 left-0 w-full bg-[#e68554] duration-500 group-hover:-translate-x-full h-full"></span>
+               <span class="absolute top-0 left-0 w-full bg-[#e68554] duration-500 group-hover:translate-x-full h-full"></span>
+               
+                 <span class="absolute top-0 left-0 w-full bg-[#e68554] duration-500 delay-300 group-hover:-translate-y-full h-full"></span>
+               <span class="absolute delay-300 top-0 left-0 w-full bg-[#e68554] duration-500 group-hover:translate-y-full h-full"></span>
+             </button>
+            </div>
+           </swiper-slide>
+        
+      </swiper-container>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.social i:nth-child(1):hover {
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    scale: 1.5;
+    color: rgb(29, 108, 211);
+}
+.social i:nth-child(2):hover {
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    scale: 1.5;
+    color: rgb(0, 6, 12);
+}
+.social i:nth-child(3):hover {
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    scale: 1.5;
+    color: rgb(184, 113, 36);
+}
+.social i:nth-child(4):hover {
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    scale: 1.5;
+    background: linear-gradient(45deg, #4285F4, #34A853, #FBBC05, #EA4335);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.social i:nth-child(5):hover {
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    scale: 1.5;
+    color: rgb(136, 28, 24);
+}
